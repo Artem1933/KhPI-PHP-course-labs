@@ -5,7 +5,6 @@ class DiscountedProduct extends Product {
     private float $discount;
 
     public function __construct(string $name, float $price, string $description, float $discount) {
-        // ВИПРАВЛЕНО: Додані знаки $ до price та description
         parent::__construct($name, $price, $description);
         $this->discount = $discount;
     }

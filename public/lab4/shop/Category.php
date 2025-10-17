@@ -14,7 +14,6 @@ class Category {
     }
 
     public function displayAllProducts(): void {
-        // Убрали лишние \n и добавили HTML
         echo "<h1>Категорія: {$this->categoryName}</h1>";
         echo "<p>Всього товарів: " . count($this->productsArray) . "</p>";
 
